@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "My simple private NPM package. Just for fun",
   "main": "index.js",
+  "repository": "https://github.com/pedrofurtado/my-simple-private-npm-package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
