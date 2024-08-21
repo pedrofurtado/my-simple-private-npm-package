@@ -2,7 +2,7 @@ name: Publish private package to GitHub Packages
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 jobs:
   build:
@@ -18,7 +18,6 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@pedrofurtado'
 
       - name: Install dependencies
         run: npm install

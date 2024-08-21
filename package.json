@@ -1,6 +1,6 @@
 {
   "name": "@pedrofurtado/my-simple-private-npm-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My simple private NPM package. Just for fun",
   "main": "index.js",
   "scripts": {
